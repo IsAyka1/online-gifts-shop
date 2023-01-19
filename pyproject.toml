@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-analyzer"
+version = "0.0.1"
+authors = [
+  { name="Islanova Aigul", email="aigul-isl@yandex.ru" },
+]
+description = "Analyzer for online-gifts-shop"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers=[
+    'Intended Audience :: Developers',
+    'Natural Language :: Russian',
+    'Operating System :: Ubuntu',
+    'Operating System :: Linux',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: Implementation :: CPython',
+    "License :: OSI Approved :: MIT License"
+]
+
+#[project.scripts]
+#market-analyzer-api = 'market-analyzer.api.__main__:main'
+#market-analyzer-db = 'market-analyzer.db.__main__:main'
+
+[project.urls]
+"Homepage" = "https://github.com/IsAyka1/online-gifts-shop"
+
+[tool.setuptools.packages.find]
+exclude = ["tests"]
+
+[tool.setuptools]
+include-package-data = true

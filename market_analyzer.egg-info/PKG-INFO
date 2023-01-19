@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: market-analyzer
+Version: 0.0.1
+Summary: Analyzer for online-gifts-shop
+Author-email: Islanova Aigul <aigul-isl@yandex.ru>
+Project-URL: Homepage, https://github.com/IsAyka1/online-gifts-shop
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: Ubuntu
+Classifier: Operating System :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# online-gifts-shop
+Backend part of online gifts shop
